@@ -1,0 +1,6 @@
+#moduuli 3 tehtävä 1
+kalan_pituus = float(input("Monta senttiä pitkä kuha on?"))
+ali_mitta = str(38 - kalan_pituus)
+if kalan_pituus < 38:
+    print("Kuha on alimittainen. Laske kuha takaisin")
+    print("Kuha oli " + ali_mitta + "cm alimittainen")
