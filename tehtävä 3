@@ -1,0 +1,15 @@
+# moduuli 3 tehtävä 3
+suku_puoli = input("Kerro biologinen sukupuolesi: ")
+hemoglobiini = int(input("Kerro hemoglobiini arvosi (g/l): "))
+if suku_puoli == "mies" and hemoglobiini < 134:
+    print("Hemoglobiini arvosi ovat alhaiset")
+elif suku_puoli == "mies" and 134 < hemoglobiini < 195:
+    print("Hemoglobiini arvosi ovat normaalit")
+elif suku_puoli == "mies" and hemoglobiini > 195:
+    print("Hemoglobiini arvosi ovat korkeat")
+elif suku_puoli == "nainen" and hemoglobiini < 117:
+    print("Hemoglobiini arvosi ovat alhaiset")
+elif suku_puoli == "nainen" and 117 < hemoglobiini < 175:
+    print("Hemoglobiini arvosi ovat normaalit")
+elif suku_puoli == "nainen" and hemoglobiini > 175:
+    print("Hemoglobiini arvosi ovat korkeat")
